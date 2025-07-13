@@ -1,12 +1,29 @@
 # 🚀 Docker + Conan + Eigen Example
-This example gives you:
-A clean, reproducible, Docker-based build for C++
-Modern dependency management with Conan
-A minimal Eigen test app using CMake
 
-- Use **[Conan](https://conan.io/)** to manage C++ dependencies like [Eigen](https://eigen.tuxfamily.org/)
-- Use **CMake** for build configuration
-- Build everything inside a minimal **Docker** container
+This simple example demonstrates a clean and modern way to build C++ applications using:
+
+- 🐳 **Docker** for reproducible, containerized builds
+- 📦 **Conan** as a C++ dependency/package manager
+- ⚙️ **CMake** as the build system
+- 📐 **Eigen** for linear algebra operations
+
+## 🎯 What You Get
+
+✅ A self-contained C++ development environment  
+✅ Dockerized build system  
+✅ Reproducible dependency resolution with Conan  
+✅ Simple Eigen-based app that solves a 3×3 linear system
+
+## ⚙️ Prerequisites (Ubuntu 22.04 or similar)
+
+### 🐳 1. Install Docker (if not installed)
+
+```bash
+sudo apt-get update
+sudo apt-get install -y docker.io
+sudo usermod -aG docker $USER
+newgrp docker
+
 
 ## ⚙️ Prerequisites
 
@@ -26,9 +43,9 @@ docker --version
 ## Clone the repo
 
 git clone https://github.com/rahuldevangre/docker-conan-eigen.git
+cd docker-conan-eigen
 
 ## 📦 Build the Docker Image
-
 docker build -t eigen-app .
 
 ## ▶️ Run the App
