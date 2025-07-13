@@ -49,3 +49,8 @@ Solution x:
 ```
 The program solves a 3×3 linear system Ax = b using Eigen’s QR decomposition inside the Docker container.
 
+⭐️ Star this repo if it helped you!
+💬 Contributions and suggestions are always welcome.
+
+Happy C++ hacking! 🚀
+
