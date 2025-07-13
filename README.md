@@ -23,6 +23,10 @@ newgrp docker
 ## Verify installation
 docker --version
 
+## Clone the repo
+
+git clone https://github.com/rahuldevangre/docker-conan-eigen.git
+
 ## 📦 Build the Docker Image
 
 docker build -t eigen-app .
