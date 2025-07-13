@@ -17,20 +17,8 @@ This simple example demonstrates a clean and modern way to build C++ application
 ## ⚙️ Prerequisites (Ubuntu 22.04 or similar)
 
 ### 🐳 1. Install Docker (if not installed)
-
-```bash
-sudo apt-get update
-sudo apt-get install -y docker.io
-sudo usermod -aG docker $USER
-newgrp docker
-
-
-## ⚙️ Prerequisites
-
 - [Docker](https://docs.docker.com/engine/install/ubuntu/) installed on your system.
-
-To install Docker on Ubuntu 22.04:
-
+- 
 ```bash
 sudo apt-get update
 sudo apt-get install -y docker.io
@@ -40,18 +28,18 @@ newgrp docker
 ## Verify installation
 docker --version
 
-## Clone the repo
+### 📥 2. Clone the Repository
 
 git clone https://github.com/rahuldevangre/docker-conan-eigen.git
 cd docker-conan-eigen
 
-## 📦 Build the Docker Image
+### 🛠️ 3. Build the Docker Image
 docker build -t eigen-app .
 
-## ▶️ Run the App
+### ▶️ 4. Run the Application
 docker run --rm eigen-app
 
-## Expected output
+✅ Expected Output
 Solution x:
       -2
 0.999997
