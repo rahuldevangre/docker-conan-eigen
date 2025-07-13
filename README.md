@@ -1,6 +1,8 @@
 # 🚀 Docker + Conan + Eigen Example
-
-This project demonstrates how to:
+This example gives you:
+A clean, reproducible, Docker-based build for C++
+Modern dependency management with Conan
+A minimal Eigen test app using CMake
 
 - Use **[Conan](https://conan.io/)** to manage C++ dependencies like [Eigen](https://eigen.tuxfamily.org/)
 - Use **CMake** for build configuration
