@@ -26,25 +26,26 @@ newgrp docker
 
 ## Verify installation
 docker --version
-
+```
 ### 📥 2. Clone the Repository
 ```bash
 git clone https://github.com/rahuldevangre/docker-conan-eigen.git
 cd docker-conan-eigen
-
+```
 ### 🛠️ 3. Build the Docker Image
 ```bash
 docker build -t eigen-app .
-
+```
 ### ▶️ 4. Run the Application
 ```bash
 docker run --rm eigen-app
-
+```
 ✅ Expected Output
 ```bash
 Solution x:
       -2
 0.999997
        1
+```
 The program solves a 3×3 linear system Ax = b using Eigen’s QR decomposition inside the Docker container.
 
