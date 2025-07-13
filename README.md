@@ -6,16 +6,6 @@ This project demonstrates how to:
 - Use **CMake** for build configuration
 - Build everything inside a minimal **Docker** container
 
-## 📁 Project Structure
-
-docker-conan-eigen/
-├── CMakeLists.txt
-├── conanfile.txt
-├── Dockerfile
-├── README.md
-└── src/
-└── main.cpp
-
 ## ⚙️ Prerequisites
 
 - [Docker](https://docs.docker.com/engine/install/ubuntu/) installed on your system.
